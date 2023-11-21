@@ -1,0 +1,13 @@
+
+body {
+    background-image: url('../Images/hills.jpg');
+}
+
+.main-img {
+    filter: grayscale(70%);
+}
+
+.top-section {
+    text-align: center;
+    color: white;
+}
