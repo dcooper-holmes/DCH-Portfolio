@@ -1,13 +1,22 @@
 
-body {
-    background-image: url('../Images/hills.jpg');
-}
-
-.main-img {
-    filter: grayscale(70%);
-}
 
 .top-section {
-    text-align: center;
-    color: white;
+    display: flex;
+    flex-direction: column;
+    height: 50vh;
+    width: auto;
+    background-color: #a8d2fd !important;
+    background-image: linear-gradient(62deg, #a8d2fd 9%, #ead9fb 48%, #ffffff 90%) !important;
+    align-items: center;
+    justify-content: center;
+}
+
+.top-section > h1 {
+    background: -webkit-linear-gradient(19deg, #74c5eb 0%, #c79fe6 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.btn-contact {
+    margin-top: 30px;
 }
