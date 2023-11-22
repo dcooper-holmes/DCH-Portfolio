@@ -2,7 +2,6 @@
 
 .top-section {
     display: flex;
-    flex-direction: row;
     height: 100vh;
     width: auto;
     background-color: #6cd19a;
@@ -12,7 +11,6 @@
 }
 
 .title-container {
-    text-align: center;
     color: white;
 }
 
@@ -22,10 +20,6 @@
 
 .btn-contact {
     margin-top: 30px;
-}
-
-.side-menu {
-    flex-shrink: 0;
 }
 
 .side-menu > ul {
