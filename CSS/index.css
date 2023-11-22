@@ -2,7 +2,7 @@
 
 .top-section {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     height: 100vh;
     width: auto;
     background-color: #6cd19a;
@@ -11,15 +11,24 @@
     justify-content: center;
 }
 
-.top-section > h1 {
-    font-size: 5rem;
+.title-container {
+    text-align: center;
     color: white;
 }
 
-.top-section > h3 {
-    color: white;
+.title-container > h1 {
+    font-size: 5rem;
 }
 
 .btn-contact {
     margin-top: 30px;
+}
+
+.side-menu {
+    flex-shrink: 0;
+}
+
+.side-menu > ul {
+    text-align: center;
+    list-style-type: none;
 }
