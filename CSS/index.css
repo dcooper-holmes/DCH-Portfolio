@@ -21,3 +21,11 @@
 .btn-contact {
     margin-top: 30px;
 }
+
+.side-menu-item {
+    transition: 0.3s;
+}
+
+.side-menu-item:hover {
+    transform: translate(0, -10px);
+}
