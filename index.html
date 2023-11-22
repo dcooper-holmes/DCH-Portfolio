@@ -11,8 +11,25 @@
     </head>
     <body>
 
+        <!-- Nav bar -->
+        <nav class="navbar navbar-expand-lg fixed-top bg-body-tertiary" data-bs-theme="dark">
+            <div class="container-fluid">
+              <div class="justify-content-center collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                  <a class="nav-link" href="#">Home</a>
+                  <a class="nav-link" href="#">About Me</a>
+                  <a class="nav-link" href="#">Skills</a>
+                  <a class="nav-link" href="#">Portfolio</a>
+                  <a class="nav-link" href="#">Github</a>
+                  <a class="nav-link" href="#">Contact Me</a>
+                </div>
+              </div>
+            </div>
+        </nav>
+        <!-- End of Nav bar -->
+
         <!-- Top Section -->
-        <div class="top-section text-center">
+        <div class="top-section d-flex text-center">
             
             <div class="title-container">
                 <h1>Daniel Cooper-Holmes</h1>
@@ -23,9 +40,23 @@
         </div>
         <!-- End of Top Section -->
 
-        <div class="about-me-section">
-
-        </div>
+        <!-- About Me Section -->
+        <div class="px-4 pt-5 my-5 text-center border-bottom">
+            <h1 class="display-4 fw-bold text-body-emphasis">About Me</h1>
+            <div class="col-lg-6 mx-auto">
+              <p class="lead mb-4">Hi there! My name is Daniel. I am a software technician who likes to create websites and applications.</p>
+              <div class="d-grid gap-2 d-sm-flex justify-content-sm-center mb-5">
+                <button type="button" class="btn btn-primary btn-lg px-4 me-sm-3">Primary button</button>
+                <button type="button" class="btn btn-outline-secondary btn-lg px-4">Secondary</button>
+              </div>
+            </div>
+            <div class="overflow-hidden" style="max-height: 30vh;">
+              <div class="container px-5">
+                <img src="bootstrap-docs.png" class="img-fluid border rounded-3 shadow-lg mb-4" alt="Example image" width="700" height="500" loading="lazy">
+              </div>
+            </div>
+          </div>
+          <!-- End of About Me Section -->
 
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
     </body>
