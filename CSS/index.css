@@ -1,4 +1,7 @@
 
+body {
+    
+}
 
 .top-section {
     display: flex;
@@ -24,6 +27,7 @@
 
 .side-menu-item {
     transition: 0.3s;
+    mix-blend-mode: darken;
 }
 
 .side-menu-item:hover {
