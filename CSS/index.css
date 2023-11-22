@@ -2,7 +2,6 @@
 
 .top-section {
     display: flex;
-    flex-direction: column;
     height: 100vh;
     width: auto;
     background-color: #6cd19a;
@@ -11,15 +10,22 @@
     justify-content: center;
 }
 
-.top-section > h1 {
-    font-size: 5rem;
+.title-container {
     color: white;
 }
 
-.top-section > h3 {
-    color: white;
+.title-container > h1 {
+    font-size: 5rem;
 }
 
 .btn-contact {
     margin-top: 30px;
+}
+
+.side-menu-item {
+    transition: 0.3s;
+}
+
+.side-menu-item:hover {
+    transform: translate(0, -10px);
 }
