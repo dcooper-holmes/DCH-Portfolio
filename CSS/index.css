@@ -37,18 +37,18 @@
     font-size: 3rem;
 }
 
-/* Skill Animation */
+    /* Skill Animation */
 
-.skill:hover {
-    animation: skill 0.5s;
-}
+    .skill:hover {
+        animation: skill 0.5s;
+    }
 
-@keyframes skill {
-    from, to { transform: scale(1, 1); }
-    25% { transform: scale(0.9, 1.1); }
-    50% { transform: scale(1.1, 0.9); }
-    75% { transform: scale(0.95, 1.05); }
-}
-/* End of Skill Animation */
+    @keyframes skill {
+        from, to { transform: scale(1, 1); }
+        25% { transform: scale(0.9, 1.1); }
+        50% { transform: scale(1.1, 0.9); }
+        75% { transform: scale(0.95, 1.05); }
+    }
+    /* End of Skill Animation */
 
 /* End of About Me Section */
